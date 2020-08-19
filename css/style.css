@@ -1,0 +1,31 @@
+.container {
+  width: 450px;
+}
+
+.nutris {
+  display: table;
+  width: 100%;
+}
+
+.nutri {
+  display: table-row;
+  width: 100%;
+}
+
+.nutri > div {
+  display: table-cell;
+}
+
+.nutriName {
+  width: 80px;
+  margin-left: 2px;
+}
+
+.nutriInput > input {
+  width: 100%;
+}
+
+.chart {
+  margin: 10px;
+}
+
