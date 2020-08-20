@@ -1,10 +1,10 @@
 code size summary per package:
 
-base:                    526424
+base:                    521557
 containers-0.5.11.0-GhhPXbBZ8rf1WBQjAVqqMW:188710
 dependent-map-0.2.4.0-DMPMYlmG4cR7elSMvzoKhG:56126
 dependent-sum-0.4.1-67rHSI4dU4Eh1zqJOAHqu:12341
-ghc-prim:                45989
+ghc-prim:                46006
 ghcjs-base-0.2.0.0-1zqNn6nIHQdAmmILf3TTxp:7411
 ghcjs-dom-jsffi-0.9.2.0-GnWNSjUvOFlLG3HjZwWTpH:126920
 ghcjs-prim-0.1.1.0-A1JdvSlggG4AS5cM95oali:7877
@@ -13,13 +13,13 @@ keycode-0.2.2-H4zcbZfAtWkGhBQJKI8DXg:594
 main:                    84019
 primitive-0.6.3.0-EN7G6bIUziYESvlw7SsQBc:1286
 ref-tf-0.4.0.1-I3N9TyOnTSb5BoggGxOx1D:201
-reflex-0.5-F0of3DpR7RECyZ4LjNrpSw:1155556
+reflex-0.5-F0of3DpR7RECyZ4LjNrpSw:1154493
 reflex-dom-canvas-0.4.0.1-753E4Kn6r7r2Vmdrqun9QP:18854
-reflex-dom-core-0.4-2a86yvKhCSZKEuMoYVKfxR:1053761
+reflex-dom-core-0.4-2a86yvKhCSZKEuMoYVKfxR:1053675
 text-1.2.3.0-DJtdEqIKOtKIC6lWl5JFOu:855
 these-0.7.4-FY8lcpovtsDKIeGwJs4mlh:11937
 transformers-0.5.5.0-8ZjexgxxdBLH8OWn8CZkwx:8977
-unbounded-delays-0.1.1.0-5V6xLCeZh6nLs8o37BDuBe:130071
+unbounded-delays-0.1.1.0-5V6xLCeZh6nLs8o37BDuBe:128918
 
 
 code size per module:
@@ -39,8 +39,7 @@ base
     Data.Tuple:                         219
     Data.Type.Coercion:                 558
     Data.Type.Equality:                 69566
-    Data.Typeable.Internal:             4867
-    Debug.Trace:                        10697
+    Data.Typeable.Internal:             10697
     Foreign.C.Error:                    423
     Foreign.Marshal.Alloc:              1646
     Foreign.Storable:                   3443
@@ -107,7 +106,7 @@ ghc-prim
     GHC.Classes:                        139
     GHC.IntWord64:                      3052
     GHC.Tuple:                          4226
-    GHC.Types:                          25702
+    GHC.Types:                          25719
 
 ghcjs-base-0.2.0.0-1zqNn6nIHQdAmmILf3TTxp
     Data.JSString:                      3855
@@ -154,7 +153,7 @@ reflex-0.5-F0of3DpR7RECyZ4LjNrpSw
     Data.FastMutableIntMap:             15347
     Data.Functor.Misc:                  1536
     Data.WeakBag:                       7261
-    Reflex.Adjustable.Class:            39549
+    Reflex.Adjustable.Class:            38486
     Reflex.Class:                       13024
     Reflex.Dynamic:                     706
     Reflex.FastWeak:                    2904
@@ -188,7 +187,7 @@ reflex-dom-core-0.4-2a86yvKhCSZKEuMoYVKfxR
     Reflex.Dom.Builder.Class.Events:    663034
     Reflex.Dom.Builder.Immediate:       101318
     Reflex.Dom.Main:                    61732
-    Reflex.Dom.Specializations:         56353
+    Reflex.Dom.Specializations:         56267
     Reflex.Dom.Widget.Basic:            4465
     Reflex.Dom.Widget.Input:            121
 
@@ -203,9 +202,9 @@ transformers-0.5.5.0-8ZjexgxxdBLH8OWn8CZkwx
     Control.Monad.Trans.State.Strict:   1900
 
 unbounded-delays-0.1.1.0-5V6xLCeZh6nLs8o37BDuBe
-    Control.Concurrent.Thread.Delay:    130071
+    Control.Concurrent.Thread.Delay:    128918
 
 
 
-packed metadata: 779416
+packed metadata: 779891
 
